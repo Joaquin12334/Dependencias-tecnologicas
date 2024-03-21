@@ -1,0 +1,63 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,  sans-serif; /* Familia de fuentes */
+    font-size: 19px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: hsla(45, 100%, 82%, 0.345); /* El color del fondo de la página web */
+    color: #440000; /* El color del texto*/ 
+}
+h1 {
+    color: #9e0348; /* El color de la cabecera */
+    font-size: 60px; /* El tamaño de la fuente de la cabecera */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Arial Narrow Bold', sans-serif, serif; /* La familia tipográfica utilizada en la cabecera */
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top:  1px solid black;
+    animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+    0% {
+      color: rgb(255, 111, 0);
+    }
+
+
+    50% {
+        color: rgb(226, 42, 42);
+    }
+    
+  
+    100% {
+      color: rgb(255, 111, 0);
+    }
+}
+
+
+h2 {
+    color: #4a0000; /* El color de la cabecera */
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, serif; /* La familia tipográfica utilizada en la cabecera */
+    margin: 20px 60px
+}
+ul {
+    color: #2b0318; /* El color de la cabecera */
+    font-size: 17.5px; /* El tamaño de la fuente de la cabecera */
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace, serif; /* La familia tipográfica utilizada en la cabecera */
+    margin: 20px 60px
+}
+p {
+    margin: 20px 40px
+}
+#imagen1 {
+    position: relative; /* Establece posición relativa */
+    width: 150px; /* Cambia el tamaño según lo que necesites */
+    height: auto; /* Mantiene la proporción original */
+    left: 60px; /* Mueve la imagen hacia la derecha */
+    top: 150px; /* Mueve la imagen hacia abajo */
+}
+
+imagen2 {
+    margin: 20px 40px
+}
+
+iframe {
+    margin: 20px 40px
+}
